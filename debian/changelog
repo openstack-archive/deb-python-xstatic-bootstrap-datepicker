@@ -1,0 +1,5 @@
+python-xstatic-bootstrap-datepicker (0.0.0.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #757824)
+
+ -- Thomas Goirand <zigo@debian.org>  Mon, 11 Aug 2014 23:52:07 +0800
