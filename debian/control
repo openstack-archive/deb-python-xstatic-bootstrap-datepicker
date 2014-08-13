@@ -12,7 +12,7 @@ Build-Conflicts: python-xstatic, python3-xstatic
 Standards-Version: 3.9.5
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-bootstrap-datepicker.git
 Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-bootstrap-datepicker.git
-Homepage: https://bitbucket.org/thesheep/xstatic-bootstrap-datepicker
+Homepage: https://github.com/stackforge/xstatic-bootstrap-datepicker
 
 Package: python-xstatic-bootstrap-datepicker
 Architecture: all
