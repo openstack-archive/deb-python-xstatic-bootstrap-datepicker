@@ -1,0 +1,31 @@
+Description: Using new version 1.3.1 of xstatic/pkg/bootstrap_datepicker/__init__.py
+ Since the upstream source code is surprisingly not yet available on github,
+ I'm patching __init__.py which is anyway the only thing I really need from
+ upstream code.
+Author: Thomas Goirand <zigo@debian.org>
+Forwarded: not-needed
+Last-Update: 2014-10-06
+
+--- python-xstatic-bootstrap-datepicker-0.0.0.1.orig/xstatic/pkg/bootstrap_datepicker/__init__.py
++++ python-xstatic-bootstrap-datepicker-0.0.0.1/xstatic/pkg/bootstrap_datepicker/__init__.py
+@@ -11,9 +11,9 @@ NAME = __name__.split('.')[-1] # package
+                                # please use a all-lowercase valid python
+                                # package name
+ 
+-VERSION = '0.0.0' # version of the packaged files, please use the upstream
++VERSION = '1.3.0' # version of the packaged files, please use the upstream
+                   # version number
+-BUILD = '1' # our package build number, so we can release new builds
++BUILD = '0' # our package build number, so we can release new builds
+              # with fixes for xstatic stuff.
+ PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
+ 
+@@ -28,7 +28,7 @@ MAINTAINER = 'Radomir Dopieralski'
+ MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
+ 
+ # this refers to the project homepage of the stuff we packaged:
+-HOMEPAGE = 'http://www.eyecon.ro/bootstrap-datepicker/'
++HOMEPAGE = 'https://github.com/eternicode/bootstrap-datepicker/'
+ 
+ # this refers to all files:
+ LICENSE = '(same as %s)' % DISPLAY_NAME

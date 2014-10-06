@@ -21,7 +21,10 @@ override_dh_install:
 	rm -rf $(CURDIR)/debian/python*-xstatic-bootstrap-datepicker/usr/lib/python*/dist-packages/xstatic/pkg/bootstrap_datepicker/data/*
 	for i in $(CURDIR)/debian/python*-xstatic-bootstrap-datepicker/usr/lib/python*/dist-packages/xstatic/pkg/bootstrap_datepicker/data ; do \
 		ln -s ../../../../../../../share/twitter-bootstrap/files/js/bootstrap-datepicker.js $$i/bootstrap-datepicker.js ; \
+		ln -s ../../../../../../../share/twitter-bootstrap/files/js/locales $$i/locales ; \
 		ln -s ../../../../../../../share/twitter-bootstrap/files/less/datepicker.less $$i/datepicker.less ; \
+		ln -s ../../../../../../../share/twitter-bootstrap/files/css/datepicker.css $$i/datepicker.css ; \
+		ln -s ../../../../../../../share/twitter-bootstrap/files/css/datepicker3.css $$i/datepicker3.css ; \
 	done
 	rm -rf $(CURDIR)/debian/python*-xstatic-bootstrap-datepicker/usr/lib/python*/dist-packages/*.pth
 
