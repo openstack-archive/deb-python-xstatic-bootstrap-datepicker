@@ -1,0 +1,10 @@
+Code-Review+2: Radomir Dopieralski <openstack@sheep.art.pl>
+Code-Review+1: Thomas Goirand <thomas@goirand.fr>
+Code-Review+2: Matthias Runge <mrunge@redhat.com>
+Workflow+1: Matthias Runge <mrunge@redhat.com>
+Verified+2: Jenkins
+Submitted-by: Jenkins
+Submitted-at: Tue, 01 Sep 2015 15:15:00 +0000
+Reviewed-on: https://review.openstack.org/218661
+Project: openstack/deb-python-xstatic-bootstrap-datepicker
+Branch: refs/heads/master
